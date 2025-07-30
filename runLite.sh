@@ -6,6 +6,6 @@ docker run \
     -p 8308:8308/udp \
     --shm-size=512m \
     --security-opt seccomp=unconfined \
-    kbkn202x/orange_ros2:latest
+    kbkn202x/orange_ros2/vlp-16:latest
     
 #   -e RESOLUTION=1920x1080

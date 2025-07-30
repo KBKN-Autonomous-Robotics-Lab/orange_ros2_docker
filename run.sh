@@ -12,7 +12,7 @@ docker run \
     --device /dev/sensors/estop:/dev/sensors/estop:mwr \
     --device /dev/input/js0:/dev/input/js0:mwr \
     --device /dev/input/js1:/dev/input/js1:mwr \
-    kbkn202x/orange_ros2:latest
+    kbkn202x/orange_ros2/vlp-16:latest
 	
 #   -e RESOLUTION=1920x1080
 #   js0;DualSense Controller
